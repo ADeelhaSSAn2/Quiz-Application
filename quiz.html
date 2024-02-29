@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- navbar -->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-md">
+     <img src="img/smit.png" width="120px" alt="">
+    </div>
+  </nav>
+<!-- end -->
+
+<div class="heading">
+<h1>Best of luck 😊</h1>
+<p>Read the quiz questions correctly. After that click on the correct answer.</p>
+</div>
+<!-- quiz -->
+<div class="container">
+    <div class="quiz-container">
+        <h1 class="text-center">SMIT QUIZ</h1>
+        <div class="timer text-center">
+            <span id="time">0:00</span>
+        </div>
+    <div id="question-container" class="mb-4">
+        <p id="question"></p>
+        <ul id="choices" class="list-unstyled"></ul>
+    </div>
+    <button id="submit-btn" class="btn btn-primary btn-block">Submit</button>
+    <p id="score" class="text-center mt-4"></p>
+    <button id="restart-btn" class="btn btn-secondary btn-block">Restart</button>
+    </div>
+</div>
+<!-- quiz end -->
+<!-- button -->
+<a href="index.html"  class="button-55" role="button">Back</a>
+<!-- buttonend -->
+
+<!-- credit -->
+<div class="credits"> ©️ 2024 <span>Adeel Hassan</span>|All Right reserved|</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
